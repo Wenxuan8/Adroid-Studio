@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txt_subname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hoa hồng 2"
+        android:textColor="#F67575"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/img_sub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/hoahong2" />
+
+    <TextView
+        android:id="@+id/txt_subprice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="30000"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+</LinearLayout>
